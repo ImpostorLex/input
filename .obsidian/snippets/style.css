@@ -1,0 +1,29 @@
+.markdown-source-view.mod-cm6 .internal-embed > img,
+.markdown-preview-view .internal-embed > img {
+    box-shadow: 0 28px 8px -26px rgba(0, 0, 0);
+    border:1px solid #666;
+    margin: 0.25rem 0.25rem 0.75rem 0.25rem;
+}
+
+.canvas-node{
+  text-align: center
+}
+
+img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+}
+
+.cm-s-obsidian span.cm-inline-code {
+color: white !important;
+padding: 4px 6px 2px 6px !important;
+font-size: var(--code-size);
+background-color: gray;
+}
+
+
+.callout[data-callout="map"] {
+    --callout-color: 70, 130, 180; /* Steel Blue */
+    --callout-icon: dices;
+}

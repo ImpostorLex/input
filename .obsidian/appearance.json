@@ -1,0 +1,11 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "style",
+    "banner",
+    "CSS.Banners"
+  ],
+  "textFontFamily": "New York Small",
+  "showRibbon": false
+}
