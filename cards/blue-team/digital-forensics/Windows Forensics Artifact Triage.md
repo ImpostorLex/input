@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-18
 dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 Artifacts to prioritize getting when performing the initial triage of a Windows system to quickly perform forensics aside from memory or volatile data.

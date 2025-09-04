@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 date-created: 2025-01-20
-dg-publish:
+dg-publish: true
 ---
-[[Snort]]
+[[Snort]] | ~ [[blue-team]]
 
 > First, investigate `snort_challenge.pcap` in **Wireshark** and identify any unique **User-Agent** strings. Upon doing so, what penetration testing tool did the attacker use to brute force the admin page of the web server?
 

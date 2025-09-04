@@ -1,3 +1,7 @@
+---
+dg-publish: true
+date-created: 2025-04-21
+---
 [[Intrusion Detection and Prevention System]]
 
 - A network based.

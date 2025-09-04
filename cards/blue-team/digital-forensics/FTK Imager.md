@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-15
 dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 A forensic image that can copy bit by bit of a storage device as well as producing a hash for integrity.

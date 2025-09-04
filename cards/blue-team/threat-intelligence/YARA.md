@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-12
-dg-publish:
+dg-publish: true
 ---
-[[Threat Intelligence MOC]]
+[[blue-team]]
 
 - [notes here](obsidian://open?vault=FOCUS&file=Atlas%2FBlue%20Team%2FMalware%2FYARA)
 - refer to [[Pyramid of Pain]] for patterns.

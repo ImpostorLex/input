@@ -1,3 +1,7 @@
+---
+tags: 
+dg-publish: true
+---
 [[Email Analysis]]
 ## Content Examination
 ---

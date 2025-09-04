@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response]]
+~ [[blue-team]]
 ### Introduction
 ---
 The goal is to have our systems and people ready to respond to incident or at best prevent them.

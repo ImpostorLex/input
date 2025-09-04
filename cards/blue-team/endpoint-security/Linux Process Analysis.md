@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-29
-dg-publish:
+dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - A program, command, a script is a process
 - [[Linux -  proc file system|/proc file directory]] proc = processes
@@ -26,7 +26,7 @@ sudo ps -AFH | less
 - `-F` full format response
 - `-H` forest output parent-child
 
-![[Linux Process Analysis.png]]
+![[cards/blue-team/endpoint-security/images/Linux Process Analysis.png]]
 **List out all child of parent by providing PID of parent**
 
 ```bash
@@ -58,3 +58,49 @@ lsof +L1
 
 - Why it remains? because it is still in our memory and in used by other processes
 - You can still extract the hash by `sha256sum exe`
+
+**Great if you suspect a user has only access to his/her home directory** or for specific processes running in a specific directory:
+
+```C
+lsof +D /home/mircoservice
+```
+
+Also used to check for hidden process.
+
+![[cards/blue-team/soc/images/Linux Process Analysis.png]]
+
+**Viewing malware under services**
+
+```C
+systemctl list-timers --all
+```
+
+Or
+
+```C
+systemctl list-unit-files --type=service --all  
+```
+
+Output:
+
+![[cards/blue-team/siem/images/Linux Process Analysis.png]]
+
+Note Enabled - Enabled | STATE and PRESET look for services that both columns enabled.
+
+Since we are looking for persistence mechanism at least the `STATE` must be enabled.
+
+- `STATE` - This is the **actual current state** of the service unit file in the file system.
+- `PRESET` - This shows what the **preset policy** suggests should be done with this service — based on the system-wide or vendor-supplied policy
+
+Look into here as well: 
+
+```C
+/etc/systemd/system/
+```
+
+**Show all recently modified or added services:** 
+
+```C
+find /etc/systemd/system /lib/systemd/system -type f -name "*.service" -exec stat --format '%y %n' {} \; | sort
+```
+

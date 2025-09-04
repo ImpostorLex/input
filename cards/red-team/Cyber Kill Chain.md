@@ -4,9 +4,9 @@ tags:
   - template
 aliases: 
 date-created: 
-dg-publish:
+dg-publish: true
 ---
-[[Red Teaming]]
+[[blue-team]]
 ### Introduction 
 ---
 A model that shows the whole cyber attack process opposed to [[MITRE ATT&CK]] where it models specific behaviors of certain threat groups.

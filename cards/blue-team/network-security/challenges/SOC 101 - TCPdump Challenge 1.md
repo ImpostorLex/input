@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-16
-dg-publish:
+dg-publish: true
 ---
-[[Network Security MOC]]
+~ [[blue-team]]
 
 Displaying the packet without filters shows interesting packets, these are accessing a file share using ftp and the use of ping:
 

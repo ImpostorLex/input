@@ -4,7 +4,7 @@ tags:
 dg-publish: false
 date-created:
 ---
-[[map]]
+~ [[map]]
 
 **A map can exist inside a map.**
 

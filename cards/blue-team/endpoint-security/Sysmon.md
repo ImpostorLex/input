@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-28
-dg-publish:
+dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - Exclusion is better than inclusion.
 

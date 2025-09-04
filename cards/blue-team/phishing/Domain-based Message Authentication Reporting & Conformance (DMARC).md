@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[Email]]
 
 Enhance both [[Sender Policy Framework (SPF)]] and [[DomainKeys Identified Mail (DKIM)]] using additional reporting mechanisms to domain owners.

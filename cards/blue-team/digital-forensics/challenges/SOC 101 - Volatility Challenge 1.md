@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-19
 dg-publish: true
 ---
-[[Challenges TimeKeeping]]
+~ [[blue-team]]
 
 - Source file [here](https://drive.google.com/file/d/1Vl2mT0ZDb6HrKZqSZKCJjRUjdknWUUL_/view)
 - password: infected

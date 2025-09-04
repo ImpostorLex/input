@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[Email]]
 
 Allows the receiver to verify an email message if it was indeed sent from the domain it claims to be and ensures the message is not tampered using Public Key Infrastructure (PKI).

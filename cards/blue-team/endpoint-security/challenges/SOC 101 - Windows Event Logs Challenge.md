@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 date-created: 2025-01-27
-dg-publish:
+dg-publish: true
 ---
-[[Endpoint Security]]
+[[Endpoint Security]] | ~ [[blue-team]]
 
 > What is the **hostname** of the computer that generated the logs in the `challenge.evtx` file?
 

@@ -1,8 +1,9 @@
 ---
-tags: 
-dg-publish: 
+tags:
+dg-publish: true
 date-created:
 ---
+~ [[blue-team]] 
 ## Initial Triage
 ---
 The email seems legitimate as the email claims that they are from dropbox and the email is sent because the user or in this case receiver: emily.nguyen[@]glbllogistics.co requested a password reset.

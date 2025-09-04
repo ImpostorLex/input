@@ -2,7 +2,7 @@
 tags:
   - sec
 ---
-[[Sec+]]
+[[sec plus]]
 
 One of the foundation of cryptography.
 - "There is no taking back what you said or did"

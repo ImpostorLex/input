@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 date-created: 2025-02-09
-dg-publish:
+dg-publish: true
 ---
-[[SIEM MOC]]
+~ [[blue-team]] 
 
 - August 24th - ransomware incident through USB drive. (Year 2016 per question)
 - Victim: Bob Smith

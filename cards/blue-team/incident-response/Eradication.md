@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response]]
+[[blue-team]]
 ### Introduction
 ---
 Once the threat is [[Containment|contained]], we then now move on to fixing the root cause, such as determining it's behavior, analyzing IOCs, and more.

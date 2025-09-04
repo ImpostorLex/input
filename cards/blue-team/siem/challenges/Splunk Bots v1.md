@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-07
-dg-publish:
+dg-publish: true
 ---
-[[SIEM]]
+[[blue-team]]
 
 **Indexes:**
 ```C

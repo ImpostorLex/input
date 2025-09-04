@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response#The Foundation|Incident Response]]
+~ [[blue-team]]
 ### Introduction
 ---
 How to identify an incident and how do we determine if it's a incident? what incident should we prioritize?

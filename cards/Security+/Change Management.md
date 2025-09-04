@@ -2,7 +2,7 @@
 tags:
   - sec
 ---
-[[Sec+]]
+[[sec plus]]
 
 - Should have a process such as frequency, duration, installation process, and rollback procedures in case something goes wrong.
 - Common risks in the enterprise as change is not always good.

@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-03
 dg-publish: true
 ---
-[[SIEM]]
+~ [[blue-team]]
 
 - File reference: `04_SIEM/01_Log_Analysis/Challenges/challenge.log`
 - The log file is semi structured.

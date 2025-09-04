@@ -1,5 +1,7 @@
-[[Endpoint Security MOC]]
-
+---
+dg-publish: true
+---
+~ [[blue-team]] 
 
 ```bash
 sudo lsof -i -P -n

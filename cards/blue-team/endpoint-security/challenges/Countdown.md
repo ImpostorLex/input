@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-24
 dg-publish: true
 ---
-[[Endpoint Security]]
+[[Endpoint Security]] | ~ [[blue-team]]
 
 > Verify the Disk Image. Submit SectorCount and MD5
 

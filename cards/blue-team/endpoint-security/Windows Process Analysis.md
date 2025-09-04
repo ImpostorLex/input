@@ -1,7 +1,7 @@
 ---
 tags: 
 date-created: 2025-01-21
-dg-publish:
+dg-publish: true
 ---
 [[Endpoint Security]]
 ### Introduction

@@ -1,12 +1,11 @@
 ---
 tags:
-  - sunday
-  - template
+  - red-team/initial-access
 date-created: 2024-12-05
-dg-publish: 
+dg-publish: true
 aliases:
 ---
-[[]]
+[[blue-team]]
 ### Introduction 
 ---
 It is a type of attack that tricks users by pretending to be a known entity such as organization, friends, and more into performing unwanted action.

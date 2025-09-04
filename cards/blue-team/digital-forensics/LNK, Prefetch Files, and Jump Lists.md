@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-18
 dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 These are other ways to determine what files are executed and how many times other than viewing the [[Common Windows Forensics Artifacts#Program Execution|registry]].

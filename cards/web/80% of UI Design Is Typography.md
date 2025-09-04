@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[UI Designing]]
 
 To make most important element stands out:

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[Email Analysis]]
 ## Proactive Phishing Defense
 ---

@@ -3,7 +3,7 @@ tags:
   - sec
   - sunday
 ---
-[[Sec+]]
+[[sec plus]]
 
 These are controls that protects the CIA triad of a system and it's information that reduces the risk into an acceptable level.
 ### Technical Controls

@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-02
-dg-publish: false
+dg-publish: true
 ---
-[[Phishing MOC]]
+[[blue-team]]
 ### Introduction
 ---
 An attempt of stealing sensitive information by using social engineering tactic via communication mediums such as email, SMS, phone calls, and the Internet, usually posing as a **known entity** and instilling **fear**.

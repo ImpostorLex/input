@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-03
-dg-publish:
+dg-publish: true
 ---
-[[SIEM MOC]]
+[[blue-team]]
 
 File references: **events.json**.
 

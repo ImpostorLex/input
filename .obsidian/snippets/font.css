@@ -1,0 +1,26 @@
+/* Obsidian Custom Font: New York Large with full style support */
+body,
+.markdown-preview-view,
+.markdown-source-view {
+  font-family: "New York Small", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+strong,
+.cm-strong {
+  font-weight: 700 !important;
+}
+
+em,
+.cm-em {
+  font-style: italic !important;
+}
+
+strong em,
+em strong,
+.cm-strong.cm-em {
+  font-weight: 700 !important;
+  font-style: italic !important;
+}
+

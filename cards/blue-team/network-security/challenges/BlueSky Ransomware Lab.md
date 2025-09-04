@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 
-dg-publish:
+dg-publish: true
 ---
-[[Challenges TimeKeeping]]
+~ [[blue-team]] 
 
 Dealing with a total of 4797 packet capture:
 ![[BlueSky Ransomware Lab.png]]

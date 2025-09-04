@@ -1,4 +1,7 @@
-[[Phishing MOC]]
+---
+dg-publish: true
+---
+[[blue-team]]
 ## Reactive Phishing Defense
 ---
 Again, to make an effective SOC is how we respond to incident

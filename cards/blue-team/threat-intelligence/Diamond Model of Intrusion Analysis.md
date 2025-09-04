@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-11
-dg-publish:
+dg-publish: true
 ---
-[[Threat Intelligence MOC]]
+[[blue-team]]
 
 The goal is to determine the adversary using the other 'points' in the model:
 

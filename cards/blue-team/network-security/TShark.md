@@ -3,6 +3,7 @@ tags:
   - blue-team/network-analysis/tshark
 aliases:
   - command line wireshark -Tshark
+dg-publish: true
 ---
 [[Network-Traffic Analysis]]
 

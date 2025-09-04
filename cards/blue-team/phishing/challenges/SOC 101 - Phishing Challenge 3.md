@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+~ [[blue-team]] 
 ## Initial Triage
 ---
 The email claims that Emily (our user) is invited by Adam (sender) to their wedding and he is asking emily to fill up the attached survey.

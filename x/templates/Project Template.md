@@ -1,4 +1,4 @@
-[[Projects]]
+~ [[Projects]]
 
 This will contain a checklist of what to do on a specific project, feel free to delete this paragraph.
 

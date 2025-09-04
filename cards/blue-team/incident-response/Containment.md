@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response]]
+[[blue-team]]
 ### Introduction
 ---
 The stage where we identified a legitimate security incident, the goal now is to limit the potential impact or damage.

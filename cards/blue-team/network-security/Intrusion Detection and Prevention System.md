@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-17
-dg-publish:
+dg-publish: true
 ---
-[[Network Security MOC]]
+[[blue-team]]
 
 - **Intrusion Detection System** are software or programs meant to alert based on signature, policy violation, rules, or behavioral monitoring and analysis (**REACTIVE**).
 	- Out-of-band traffic does not need to sit directly in traffic flow, it only requires a copy.

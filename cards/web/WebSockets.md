@@ -5,7 +5,7 @@ aliases:
 date-created: 2024-12-14
 dg-publish: true
 ---
-[[map-of-contents/web|web]]
+[[web|web]]
 ### Introduction 
 ---
 Websockets opens a constant line of communication between browser and server unlike the other method of asking something then getting a response.

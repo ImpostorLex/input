@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-24
 dg-publish: true
 ---
-[[Challenges TimeKeeping]]
+~ [[blue-team]]
 ### Initial Triage
 ---
 At first glance, it looks legitimate however hovering the links shows an IP address:

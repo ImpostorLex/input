@@ -3,7 +3,7 @@ tags:
 date-created: 2025-01-30
 dg-publish:
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - **sensors** are agents that sends data to LimaCharlie's cloud.
 - **Installation Keys** are used by Sensors to authenticate and report data to the correct organization.

@@ -1,4 +1,7 @@
-[[Email Analysis]]
+---
+dg-publish: true
+---
+[[Email Analysis]] | ~ [[blue-team]] 
 
 ![[Pasted image 20250104131641.png]]
 

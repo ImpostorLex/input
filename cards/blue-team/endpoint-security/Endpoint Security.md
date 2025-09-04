@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 
-dg-publish: false
+dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - **Endpoint** are hardware or devices that is connected to our network.
 	- Point of entry for security threats.

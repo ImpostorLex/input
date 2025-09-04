@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response]]
+~ [[blue-team]]
 ### Introduction
 ---
 What went well and what did not?

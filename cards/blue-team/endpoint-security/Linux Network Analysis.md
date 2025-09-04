@@ -3,7 +3,7 @@ tags:
 date-created: 2025-01-29
 dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - Common choice for servers.
 

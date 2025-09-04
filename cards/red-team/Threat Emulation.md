@@ -1,12 +1,11 @@
 ---
 tags:
-  - sunday
-  - template
+  - red-team/threat-emulation
 aliases: 
 date-created: 
-dg-publish:
+dg-publish: true
 ---
-[[Red Teaming]]
+~ [[red-team]]
 ### Introduction 
 ---
 It is a act of intentionally performing real world attacks to better improve the organization security posture and response capabilities.

@@ -1,7 +1,7 @@
 ---
 tags: 
 date-created: 
-dg-publish: false
+dg-publish: true
 ---
 [[Windows Process Analysis]]
 ### Introduction

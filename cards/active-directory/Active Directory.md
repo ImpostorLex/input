@@ -1,13 +1,12 @@
 ---
 tags:
-  - sunday
   - "#MOC"
-  - ad
+  - windows/ad
 aliases: 
 date-created: 2024-09-02
 dg-publish: true
 ---
-[[Parent]]
+[[active-directory]]
 ### Introduction 
 ---
 It has many components but the core function of Active Directory is to provided **Authentication** and **Authorization**.

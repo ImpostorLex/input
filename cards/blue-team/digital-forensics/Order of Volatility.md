@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 
-dg-publish: false
+dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 The importance of maintaining data integrity and acquisation of _volatile_ data, are data that can be easily be lost, or altered, or overwritten during investigation.

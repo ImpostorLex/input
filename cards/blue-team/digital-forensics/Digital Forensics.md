@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-14
-dg-publish:
+dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 It is the process of identifying, and collecting digital evidence to support our claims.

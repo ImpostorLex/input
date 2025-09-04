@@ -1,10 +1,9 @@
 ---
 tags:
-  - sunday
-  - ad
+  - windows/ad
 aliases: 
 date-created: 2024-12-16
-dg-publish:
+dg-publish: true
 ---
 [[active-directory]]
 ### Introduction 

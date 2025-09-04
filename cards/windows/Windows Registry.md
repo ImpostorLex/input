@@ -4,7 +4,7 @@ tags:
   - template
 aliases: 
 date-created: 
-dg-publish:
+dg-publish: true
 ---
 [[windows]]
 ### Introduction 

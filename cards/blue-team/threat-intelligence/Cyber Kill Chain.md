@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-12
-dg-publish:
+dg-publish: true
 ---
-[[Threat Intelligence MOC]]
+[[blue-team]]
 
 - **Reconnaissance**
 	- Information gathering to support the weaponization stage.

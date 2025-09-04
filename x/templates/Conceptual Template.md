@@ -6,9 +6,13 @@ aliases:
 date-created: 
 dg-publish:
 ---
-[[Parent]]
+~ [[Parent]]
 ### Introduction 
 ---
+
+#### Key Topics
+---
+
 ## Prerequisites
 
 ## Subtopic 1

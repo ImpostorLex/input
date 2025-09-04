@@ -1,9 +1,9 @@
 ---
-tags: 
-dg-publish: 
+tags:
+dg-publish: true
 date-created: 2025-01-11
 ---
-[[Challenges TimeKeeping]] | [[SOC 101 Phishing - Challenge 1#Unformatted Report (Initial Investigation)|Jump to unformatted investigation]]
+~ [[blue-team]] | [[SOC 101 Phishing - Challenge 1#Unformatted Report (Initial Investigation)|Jump to unformatted investigation]]
 Headers
 ======================================
 Date: Tue, 31 Oct 2023 10:10:04 -0900

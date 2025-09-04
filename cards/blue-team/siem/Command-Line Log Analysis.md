@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-01
 dg-publish: true
 ---
-[[SIEM MOC]]
+~ [[blue-team]]
 
 - No agent installed on the endpoint or handed a log file scenario.
 - `less` is good.

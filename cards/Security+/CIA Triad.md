@@ -2,7 +2,7 @@
 tags:
   - sec
 ---
-[[Sec+]]
+[[sec plus]]
 
 It stands for Confidentialty, Integrity, and Availability.
 

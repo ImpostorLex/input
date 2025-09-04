@@ -1,4 +1,7 @@
-[[Challenges TimeKeeping]]
+---
+dg-publish: true
+---
+~ [[blue-team]] 
 
 Here is the metadata of this `.pcap` file found at statistic's file properties:
 

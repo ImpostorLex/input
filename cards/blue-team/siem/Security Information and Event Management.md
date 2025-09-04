@@ -1,4 +1,4 @@
-[[SIEM MOC]]
+~ [[blue-team]]
 
 - **logs** are recording of events that is taken from various endpoints.
 - **events** are observable activities.

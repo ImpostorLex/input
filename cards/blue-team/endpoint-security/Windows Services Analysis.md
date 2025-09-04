@@ -3,7 +3,7 @@ tags:
 date-created: 2025-01-23
 dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 ### Introduction
 ---
 A type of process that runs in a background and most of the time has no user interface.

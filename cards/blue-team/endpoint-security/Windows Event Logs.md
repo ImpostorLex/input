@@ -3,7 +3,7 @@ tags:
 date-created: 2025-01-26
 dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - **Event ID: 4624 (Logon Successs)** we can use the Logon ID to correlate other data.
 	- **Logon Type**: 2 for someone actually behind the machine, and 3 someone logon to the machine using the network.

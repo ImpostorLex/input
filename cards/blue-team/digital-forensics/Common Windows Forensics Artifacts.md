@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 
-dg-publish: false
+dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 These are common sources of evidence that can be found on a Windows system.

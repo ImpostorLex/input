@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[Email Analysis]]
 ### URL Analysis
 ---

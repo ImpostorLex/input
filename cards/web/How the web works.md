@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-[[map-of-contents/web]]
+[[web]]
 
 WebQuery: google.com (retrieves A (IPv4) or AAAA (IPv6) records).
 Email Query: user@example[.]com (retrieves MX records or short for Mail exchange)

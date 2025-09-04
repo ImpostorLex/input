@@ -1,4 +1,7 @@
-[[map-of-contents/web]]
+---
+dg-publish: true
+---
+[[web]]
 
 _Although UI designing is not only applicable to Web but to other as well._
 

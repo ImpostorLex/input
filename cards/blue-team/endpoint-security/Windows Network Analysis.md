@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 
-dg-publish: false
+dg-publish: true
 ---
-[[Network Security MOC]]
+[[blue-team]]
 ### Introduction
 ---
 A great way to start an investigation, as everything starts with a network connection.

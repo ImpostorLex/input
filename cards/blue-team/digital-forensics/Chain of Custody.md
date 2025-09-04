@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-15
 dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 Tracking the evidence throughout the entire investigation, ensuring accountability, it includes the following:

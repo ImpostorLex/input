@@ -1,4 +1,8 @@
-[[Endpoint Security MOC]]
+---
+tags: 
+dg-publish: true
+---
+[[blue-team]]
 
 - cron job = scheduled tasks
 - cron tab = entries

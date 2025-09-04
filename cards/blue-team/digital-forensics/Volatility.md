@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-19
 dg-publish: true
 ---
-[[Digital Forensics MOC]]
+[[blue-team]]
 ### Introduction
 ---
 A tool used to analyze snapshot of the systems memory, it supports the three commonly used operating system, these are: Windows, MacOS, and Linux.

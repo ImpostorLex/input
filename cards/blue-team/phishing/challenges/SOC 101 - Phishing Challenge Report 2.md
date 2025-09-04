@@ -1,8 +1,9 @@
 ---
 tags: 
-dg-publish: 
-date-created:
+dg-publish: true
+date-created: 2025-04-21
 ---
+~ [[blue-team]]
 Headers
 ======================================
 Date: Sun, 12 May 2024 04:10:52 +0000

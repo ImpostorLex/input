@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 [[Email]]
 
 allows domain owners to which mail servers are authorized to send emails on their behalf. 

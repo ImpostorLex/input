@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-25
 dg-publish: true
 ---
-[[Challenges TimeKeeping]]
+~ [[blue-team]] 
 
 **Determing OS information**
 ```C

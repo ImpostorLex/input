@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-02-11
-dg-publish:
+dg-publish: true
 ---
-[[Threat Intelligence MOC]]
+[[blue-team]]
 
 It is the process of analyzing and applying information about potential threats to an organization.
 

@@ -3,7 +3,7 @@ tags:
 date-created: 2025-01-23
 dg-publish: true
 ---
-[[Endpoint Security MOC]]
+[[blue-team]]
 
 - Managed by Task Scheduler Utility.
 

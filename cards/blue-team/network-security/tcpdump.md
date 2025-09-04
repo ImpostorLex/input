@@ -3,7 +3,7 @@ tags:
 dg-publish: true
 date-created: 2025-01-15
 ---
-[[Network Security MOC]]
+[[blue-team]]
 
 - Great for remote network capturing.
 - `-i` to specify interface. (index number or interface name as value).

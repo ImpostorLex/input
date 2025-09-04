@@ -1,9 +1,9 @@
 ---
-tags: 
-date-created: 
-dg-publish: false
+tags:
+date-created:
+dg-publish: true
 ---
-[[Challenges TimeKeeping]]
+~ [[blue-team]] 
 ### Initial Triage
 ---
 The **from** says 'Adam' but the email content says 'Alexia' and lastly there is attached word document with a `.docm` extension, macro enabled.

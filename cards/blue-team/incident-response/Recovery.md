@@ -3,7 +3,7 @@ tags:
 date-created: 2025-02-20
 dg-publish: true
 ---
-[[Incident Response]]
+~ [[blue-team]]
 ### Introduction
 ---
 After succesfully [[Eradication|eradicating]] the root problem, this the phase where we safely put back our system into production.

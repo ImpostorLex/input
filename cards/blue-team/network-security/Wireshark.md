@@ -1,9 +1,9 @@
 ---
 tags: 
 date-created: 2025-01-16
-dg-publish:
+dg-publish: true
 ---
-[[Network Security MOC]]
+[[blue-team]]
 
 - `http` 
 	- `http.request.uri contains mal.exe`.

@@ -940,3 +940,5 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
     ));
   }
 };
+
+/* nosourcemap */
