@@ -4,7 +4,8 @@
   "enabledCssSnippets": [
     "style",
     "banner",
-    "CSS.Banners"
+    "CSS.Banners",
+    "styling"
   ],
   "textFontFamily": "New York Small",
   "showRibbon": false

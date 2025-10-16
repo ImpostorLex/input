@@ -5,7 +5,7 @@ aliases:
 date-created: 2024-12-16
 dg-publish: true
 ---
-[[active-directory]]
+~ [[active-directory]] || ~ [[Breaching Active Directory]]
 ### Introduction 
 ---
 A mechanism that enables accessing and managing directory data such users, computers, group, and any network accessible devices, it is used in any directory service such as Active Directory.
@@ -25,9 +25,19 @@ Get-ADUser -Filter *
 - **Domain Component** each part of a domain name is represented as DC
 	- `wareville.thm` = `DC=wareville` and `DC=thm`
 
-## Prerequisites
+LDAP authentication is popular with third-party (non-Microsoft) applications that integrate with AD such as:
 
-## Subtopic 1
+- Gitlab
+- Jenkins
+- Custom-developed web applications
+- Printers
+- VPN
+
+The difference between [[New Technology LAN Manager (NTLM)]] is with LDAP, the app often does see the plaintext password (the user enters it to the app) or the app uses the password to attempt a LDAP bind.
+
+- App commonly holds a service account to query AD or perform LDAP operations.
+- No encryption = can see plaintext
+
 
 ### Questions and Problems
 ---

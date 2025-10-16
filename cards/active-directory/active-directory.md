@@ -9,16 +9,16 @@ date-created:
 **A map can exist inside a map.**
 
 **Note:** only use tags if the list is overwhelming.
-
 ```dataview
 table dg-publish
 from "cards/active-directory"
-where !contains(tags, "ad/red-team")
+where !contains(file.tags, "red-team/ad") 
+      and !contains(file.tags, "windows/red-team") and !contains(file.tags, "map")
 ```
 
 > [!bug]+ Pentest Active Directory or Windows AD only
 > ```dataview
 > table dg-publish
-> from #red-team/windows/ad or #windows/red-team 
+> from #red-team/ad or #windows/red-team 
 > ```
 

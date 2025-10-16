@@ -51,6 +51,3 @@ Also suggest a proper note name for the given note - ideally best what the reade
 - [[Active Directory#Maltego|Map relationships and visualize data with Maltego’s transforms.]]
 ```
 
-
-
----

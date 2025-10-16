@@ -12,20 +12,21 @@ dg-publish: true
 - **No baseline**? DEPLOY A clean image of an endpoint and compare.
 ## Endpoint Security Monitoring
 ---
-- [[Windows Process Analysis|Process Execution]] | [[Linux Process Analysis]]
+- [[Windows Process Analysis|Process Execution (Windows)]] | [[Linux Process Analysis]]
 	- Monitoring running processes.
 	- Executable files, PIDs, command-line arguments.
 	- Parent-child process hierarchy.
 - **File System Changes**
 	- Create, modification, deletion
 	- File Integrity Monitoring
-- [[Windows Network Analysis|Network Connections]]
+- [[Windows Network Analysis|Network Connections (Windows)]] | [[Linux Network Analysis]]
 	- Traffic and connection from the endpoint.
 	- Associated processes and executables
-- [[Windows Registry|Registry Modifications]]
+- [[Windows Registry|Registry Modifications]] & [[Windows Scheduled Tasks]] | [[Linux Cron Jobs]] 
 	- Monitor registry keys and values.
 	- Detect backdoor, persistence, and detection evasion.
-- [[Windows Event Logs]]
+- [[Windows Services Analysis]]
+- [[Sysmon]] | [[Windows Event Logs]]
 ## Security Controls
 ---
 - **Antivirus**

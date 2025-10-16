@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-[[Linux Process Analysis]]
+~ [[Linux Process Analysis]] | ~ [[linux]]
 
 - location: `/proc`
 - It is a virtual file system that does not correspond to any physical storage, all of it is in memory.

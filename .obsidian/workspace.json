@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "input"
             }
-          },
-          {
-            "id": "24bebac9c1a3d87c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atlas/map.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "map"
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -142,10 +127,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "atlas/map.md"
+                "file": "input.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for map"
+              "title": "File properties for input"
             }
           },
           {
@@ -203,46 +188,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "24bebac9c1a3d87c",
+  "active": "b3d32e5537af17cb",
   "lastOpenFiles": [
+    "cards/red-team/Enumerating Active Directory (Authenticated Enumeration).md",
+    "cards/active-directory/SYSVOL.md",
+    "cards/red-team/images/Enumerating Active Directory-21.png",
+    "cards/red-team/images/Enumerating Active Directory-20.png",
+    "red/Enumerating Active Directory-19.png",
+    "red",
+    "cards/red-team/Enumerating Active Directory-17.png",
+    "cards/red-team/Enumerating Active Directory-16.png",
     "input.md",
+    "cards/active-directory/active-directory.md",
+    "cards/active-directory/Active Directory Authenticated Enumeration.md",
+    "Enumerating Active Directory.jpg",
+    "cards/red-team/images/Enumerating Active Directory-8.jpg",
+    "cards/red-team/images/Enumerating Active Directory-7.jpg",
+    "cards/red-team/images/Enumerating Active Directory-6.jpg",
+    "cards/red-team/images/Enumerating Active Directory-5.jpg",
+    "cards/blue-team/Ref IP and Domain Threat.md",
+    "cards/blue-team/threat-intelligence/IP and Domain Threat Intel.md",
+    "atlas/blue-team.md",
     "atlas/map.md",
-    "Unpublished Notes.md",
-    "atlas/dots.md",
     "notes.md",
-    "cards/dots/Hybrid Encrpytion.md",
-    "cards/blue-team/malware-analysis/Specimens/RAT.ReverseShell.exe.md",
-    "cards/dots/Public Key Infrastructure (PKI).md",
-    "cards/networking/Transport Layer Security.md",
-    "cards/networking/images/TLS handshake.png",
-    "cards/networking/TLS handshake.md",
-    "cards/dots/Certificate Authority.md",
-    "cards/networking/images/The threeway handshake.png",
-    "cards/networking/images/The threeway handshake-1.png",
-    "cards/networking/The threeway handshake.md",
-    "cards/dots/Asymmetric Encryption.md",
-    "atlas/networking.md",
-    "cards/dots/images/Public Key Infrastructure (PKI)-1.png",
-    "cards/dots/images/Public Key Infrastructure (PKI)-2.png",
-    "cards/dots/images/Public Key Infrastructure (PKI).png",
-    "cards/red-team/Network Security Solutions.md",
-    "cards/red-team/images/Network Security Solutions-3.png",
-    "cards/red-team/images/Network Security Solutions-2.png",
-    "cards/red-team/images/Network Security Solutions-1.png",
-    "cards/red-team/images/Network Security Solutions.png",
-    "+/Windows Internals for Security Practitioners.md",
-    "Vault Rules.md",
-    "cards/windows/Windows Internals.md",
-    "cards/dots/Pointers in C.md",
+    "cards/blue-team/network-security/Network Discovery Detection.md",
+    "cards/red-team/AMSI (Anti-Malware Scan Interface).md",
+    "cards/active-directory/Active Directory.md",
+    "cards/red-team/Breaching Active Directory.md",
+    "rules.md",
+    "Unpublished Notes.md",
+    "cards/red-team/Sandbox Evasion.md",
+    "cards/active-directory/Server Message Block (SMB).md",
+    "atlas/red-team.md",
+    "cards/active-directory/New Technology LAN Manager (NTLM).md",
+    "cards/active-directory/Lightweight Directory Access Protocol.md",
+    "cards/blue-team/digital-forensics/Common Windows Forensics Artifacts.md",
+    "cards/windows/Windows Registry.md",
+    "atlas/linux.md",
+    "cards/linux/Linux -  proc file system.md",
     "cards/dots/images",
     "cards/dots",
-    "cards/concepts/Digital Oceans Writing Guidelines.md",
-    "atlas/red-team.md",
-    "atlas/active-directory.md",
-    "cards/active-directory/Active Directory Enumeration.md",
-    "atlas/blue-team.md",
-    "cards/red-team/Evading Logging and Monitoring.md",
-    "cards/red-team/Signature Evasion.md",
     "z_archive",
     "cards/networking/images",
     "cards/networking",
@@ -250,7 +235,6 @@
     "cards/blue-team/malware-analysis/images",
     "cards/blue-team/malware-analysis/Untitled Folder",
     "cards/blue-team/malware-analysis/wannacry.yar",
-    "cards/blue-team/malware-analysis/Specimens",
     "Space.canvas"
   ]
 }

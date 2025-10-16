@@ -21,7 +21,6 @@ date-created: 2024-11-28
 > SORT file.ctime DESC
 > ```
 
-
 > [!warning]- HOST EVASION
 > ```dataview
 > TABLE WITHOUT ID
@@ -67,6 +66,11 @@ date-created: 2024-11-28
 > WHERE contains(file.tags, "#red-team") and
 >    !any(file.tags, (t) => startswith(t, "#red-team/"))
 > SORT file.ctime ASC
+> ```
+
+> [!warning]- ACTIVE DIRECTORY
+> ```dataview
+> TABLE FROM #red-team/ad 
 > ```
 
 #### Others

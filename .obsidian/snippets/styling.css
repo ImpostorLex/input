@@ -1,0 +1,5 @@
+ /* Round images in Obsidian */
+
+img {
+border-radius: 10px;
+}

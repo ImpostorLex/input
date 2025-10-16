@@ -5,7 +5,7 @@ aliases:
 date-created: 2024-09-04
 dg-publish: true
 ---
-[[Parent]]
+~ [[linux]]
 ### Introduction 
 ---
 The responsibilities of display servers on Linux is to handle inputs from users and interacting with Graphical User Interface (GUI), Xorg is the default display manager for most Linux distributions however it comes with performance and security risks that is where Wayland comes in.

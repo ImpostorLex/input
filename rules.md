@@ -3,7 +3,7 @@ dg-publish: true
 tags:
 date-created: 2025-08-21
 ---
-in~ [[input]]
+~ [[input]]
 
 **A dedicated note section that gives an overview of how I write and structure my notes.**
 
