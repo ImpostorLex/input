@@ -6,7 +6,8 @@ date-created: 2025-08-21
 ~ [[input]]
 
 **A dedicated note section that gives an overview of how I write and structure my notes.**
-
+#### Note Structure
+---
 `+simmering` (unpublished) folder - notes that is unfinished, cannot be organized yet, or I want to look out in the future.
 
 `cards` (published) folder - holds all topics that I have been studying - each unique topic gets its own dedicated folder i.e cards/active-directory/.
@@ -20,11 +21,33 @@ date-created: 2025-08-21
 `z_archive` - notes that I dont want to delete but will never be used.
 
 
-**How do I note take?**
+#### How do I note take?
 
 I follow the [[Digital Oceans Writing Guidelines]] template -- basically creating a note where its both a blog and documentation type note.
 
-Additionally, I use a [[notes|AI prompt]] to summarize my notes into key sections under the 'Key Topics' header found on every note.
+For red and blue teaming:
+
+There is a specific template for each of them: [[A - Techniques Blue Team v1]] and [[A - Techniques  Red Team v1]], the template's purpose is to atomicize each investigation or exploitation steps so readers can view/skim easily with the parent note template is [[A  - MOC 2 - TOPIC specific]].
+
+Here is a sample notes for both red and blue teaming, displaying aliases is **MANDATORY**.
+
+- [[Suspicious PowerShell Parent|DETECT - Endpoint Windows Suspicious PowerShell Parent]]
+- [[WMI remote exec|TECH - T1047 - WMI - Remote Process Creation]]
+
+The [[A  - MOC 2 - TOPIC specific]] will not simply hold a list of related notes but instead will hold links of related notes i.e investigation and technique steps with more details.
+
+#### Template Techniques Details
+---
+
+- Both start with **Summary** + **How it works** for instant context.
+- Both have a middle “hands-on core” (`Steps` for red, `Detection Workflow` for blue).
+- Both finish with “Response” and “Related”.
+- In the metadata or properties of each technique template it will contain both the following:
+	- `mitre_tactic` to link the PARENT tactic.
+	- `mitre_technique` the specific technique ID.
+	- So in search we can easily filter for the same techniques.
+
+Additionally, I use a [[notes|AI prompt]] to summarize my notes into key sections under the 'Key Topics' header found on every note - if needed.
 
 **Where do uncategorized but finished notes go but is still connected to my learnings?**
 

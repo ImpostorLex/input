@@ -3,6 +3,8 @@ tags:
   - map
 dg-publish: true
 date-created: 2024-11-28
+aliases:
+  - Windows OS
 ---
 ~ [[map]]
 

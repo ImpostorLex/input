@@ -5,7 +5,7 @@ aliases:
 date-created: 2024-12-16
 dg-publish: true
 ---
-~ [[active-directory]] || ~ [[Breaching Active Directory]]
+~ [[windows active directory]] || ~ [[Breaching Active Directory]]
 ### Introduction 
 ---
 A mechanism that enables accessing and managing directory data such users, computers, group, and any network accessible devices, it is used in any directory service such as Active Directory.

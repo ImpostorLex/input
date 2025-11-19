@@ -6,7 +6,7 @@ aliases:
 date-created: 2024-09-02
 dg-publish: true
 ---
-[[active-directory]]
+[[windows active directory]]
 ### Introduction 
 ---
 It has many components but the core function of Active Directory is to provided **Authentication** and **Authorization**.

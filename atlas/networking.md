@@ -3,6 +3,8 @@ tags:
   - map
 dg-publish: true
 date-created: 2025-05-27
+aliases:
+  - Computer Networking
 ---
 [[map]]
 

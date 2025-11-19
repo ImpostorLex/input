@@ -1,7 +1,8 @@
 ---
-tags: 
+tags:
 date-created: 2025-01-28
 dg-publish: true
+sTags: event-ids; headless-queries
 ---
 [[blue-team]]
 

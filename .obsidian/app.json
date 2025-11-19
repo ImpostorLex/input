@@ -7,5 +7,10 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "userIgnoreFilters": [
+    "cards/*/images",
+    "cards/bue-team/*/images",
+    "cards/red-team/images/"
+  ]
 }

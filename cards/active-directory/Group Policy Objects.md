@@ -5,7 +5,7 @@ aliases:
 date-created: 2024-12-16
 dg-publish: true
 ---
-[[active-directory]]
+[[windows active directory]]
 ### Introduction 
 ---
 A container that holds _Group Policy_ which enforces specific settings or policies, the Group Policy Object then can be applied to users, computers, organizational units (OUs), and even the domain itself.

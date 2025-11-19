@@ -5,7 +5,7 @@ dg-publish: true
 tags:
   - red-team/ad
 ---
-[[active-directory]]
+[[windows active directory]]
 ### Introduction
 ---
 During internal penetration test we are often given a Virtual Private Network access to the target network without user credentials this means we need to gather information about the domain: users, groups, computers, and policies that will serve us our attack paths.
@@ -27,7 +27,7 @@ The topology of the environment:
 
 ### Prerequisites
 ---
-- [[active-directory]]
+- [[windows active directory]]
 - Linux fundamentals
 - Computer networking.
 ## Mapping the Network

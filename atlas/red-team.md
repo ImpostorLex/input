@@ -3,6 +3,8 @@ tags:
   - map
 dg-publish: true
 date-created: 2024-11-28
+aliases:
+  - Red Teaming
 ---
 ~ [[map]]
 
@@ -68,10 +70,13 @@ date-created: 2024-11-28
 > SORT file.ctime ASC
 > ```
 
-> [!warning]- ACTIVE DIRECTORY
+ >[!warning]- ACTIVE DIRECTORY
 > ```dataview
-> TABLE FROM #red-team/ad 
-> ```
+> TABLE WITHOUT ID
+link(file.path, choice(length(file.aliases) > 0, file.aliases[0], file.name)) AS "Note"
+FROM #red-team/ad
+SORT file.ctime ASC
+>```
 
 #### Others
 ---

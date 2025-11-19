@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "input"
             }
+          },
+          {
+            "id": "fc5e4c9dc060043d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exploiting Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exploiting Active Directory"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -81,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "8234af46590e440d",
@@ -127,10 +143,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "input.md"
+                "file": "Exploiting Active Directory.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for input"
+              "title": "File properties for Exploiting Active Directory"
             }
           },
           {
@@ -188,44 +204,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3d32e5537af17cb",
+  "active": "fc5e4c9dc060043d",
   "lastOpenFiles": [
+    "Exploiting Active Directory-2.png",
     "cards/red-team/Enumerating Active Directory (Authenticated Enumeration).md",
-    "cards/active-directory/SYSVOL.md",
-    "cards/red-team/images/Enumerating Active Directory-21.png",
-    "cards/red-team/images/Enumerating Active Directory-20.png",
-    "red/Enumerating Active Directory-19.png",
-    "red",
-    "cards/red-team/Enumerating Active Directory-17.png",
-    "cards/red-team/Enumerating Active Directory-16.png",
+    "Exploiting Active Directory.md",
     "input.md",
-    "cards/active-directory/active-directory.md",
-    "cards/active-directory/Active Directory Authenticated Enumeration.md",
-    "Enumerating Active Directory.jpg",
-    "cards/red-team/images/Enumerating Active Directory-8.jpg",
-    "cards/red-team/images/Enumerating Active Directory-7.jpg",
-    "cards/red-team/images/Enumerating Active Directory-6.jpg",
-    "cards/red-team/images/Enumerating Active Directory-5.jpg",
-    "cards/blue-team/Ref IP and Domain Threat.md",
-    "cards/blue-team/threat-intelligence/IP and Domain Threat Intel.md",
-    "atlas/blue-team.md",
-    "atlas/map.md",
+    "Exploiting Active Directory-1.png",
+    "Exploiting Active Directory.png",
     "notes.md",
-    "cards/blue-team/network-security/Network Discovery Detection.md",
-    "cards/red-team/AMSI (Anti-Malware Scan Interface).md",
-    "cards/active-directory/Active Directory.md",
-    "cards/red-team/Breaching Active Directory.md",
-    "rules.md",
-    "Unpublished Notes.md",
-    "cards/red-team/Sandbox Evasion.md",
-    "cards/active-directory/Server Message Block (SMB).md",
+    "My full note-taking process.md",
+    "x/templates/A  - MOC 2 - TOPIC specific.md",
+    "x/templates/A - Techniques  Red Team v1.md",
+    "x/templates/A - Techniques Blue Team v1.md",
+    "cards/red-team/Input Manipulation.md",
+    "x/templates/Red Case Templates.md",
+    "x/templates/Blue Case Templates.md",
+    "cards/red-team/images/Input Manipulation-2.png",
+    "cards/red-team/images/Input Manipulation-1.png",
+    "cards/red-team/images/Input Manipulation.png",
     "atlas/red-team.md",
-    "cards/active-directory/New Technology LAN Manager (NTLM).md",
-    "cards/active-directory/Lightweight Directory Access Protocol.md",
-    "cards/blue-team/digital-forensics/Common Windows Forensics Artifacts.md",
-    "cards/windows/Windows Registry.md",
-    "atlas/linux.md",
-    "cards/linux/Linux -  proc file system.md",
+    "cards/red-team/lateral movement and pivoting.md",
+    "atlas/map.md",
+    "cards/concepts/Structure, Knowledge, Reference, and Playbook.md",
+    "rules.md",
+    "cards/red-team/Moving Laterally using WMI.md",
+    "cards/red-team/Spawning Process Remotely.md",
+    "cards/red-team/Port Forwarding.md",
+    "cards/red-team/Abusing User Behavior.md",
+    "cards/red-team/Use of Alternate Authentication Material.md",
+    "SMB.md",
+    "x/Suspicious PowerShell Parent.md",
+    "cards/red-team/Breaching Active Directory.md",
+    "cards/active-directory/windows active directory.md",
+    "cards/red",
+    "cards/red-team/images/lateral movement and pivoting-xxzz.png",
+    "cards/red-team/images/lateral movement and pivoting-xx.png",
+    "cards/red-team/images/lateral movement and pivoting-xzz.png",
+    "cards/red-team/images/lateral movement and pivoting0xx.png",
+    "cards/red-team/images/lateral movement and pivoting-2 (copy).png",
+    "+/images",
+    "red",
     "cards/dots/images",
     "cards/dots",
     "z_archive",
@@ -233,8 +252,6 @@
     "cards/networking",
     "map-of-contents/Untitled",
     "cards/blue-team/malware-analysis/images",
-    "cards/blue-team/malware-analysis/Untitled Folder",
-    "cards/blue-team/malware-analysis/wannacry.yar",
     "Space.canvas"
   ]
 }

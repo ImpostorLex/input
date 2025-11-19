@@ -3,6 +3,8 @@ tags:
   - map
 dg-publish: true
 date-created:
+aliases:
+  - "Dots: no category notes"
 ---
 ~ [[map]]
 

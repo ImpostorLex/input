@@ -2,7 +2,7 @@
 dg-publish: true
 dg-home: true
 ---
-~  [[input]]
+~  [[input]] 
 
 **A map can exist inside a map.**
 
@@ -22,6 +22,8 @@ dg-home: true
 > WHERE todo
 > ```
 
+
+https://www.reddit.com/r/crystalofatlan/comments/1n6fv8r/new_endgame_player_need_help_on_what_to_do_now/
 
 
 

@@ -4,7 +4,7 @@ tags:
 dg-publish: true
 date-created: 2024-11-28
 aliases:
-  - concepts that is not directly aligned with my field but can be applied
+  - Cool Concepts
 ---
 ~ [[map]]
 

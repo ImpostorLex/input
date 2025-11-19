@@ -5,7 +5,7 @@ aliases:
 date-created: 2025-10-10
 dg-publish: true
 ---
-~ [[red-team]] | ~ [[active-directory]]
+~ [[red-team]] | ~ [[windows active directory]]
 ### Introduction 
 ---
 Once we successfully obtained our first set of AD credentials; you can start enumerating various details about the AD setup and structure with authenticated access, even super low-privileged access.
@@ -41,7 +41,7 @@ Once we successfully obtained our first set of AD credentials; you can start enu
 
 ## Prerequisites
 
-- [[active-directory]] | [[Active Directory]]
+- [[windows active directory]] | [[Active Directory]]
 - Need to know: [[Breaching Active Directory]]
 
 ## Credential Injection

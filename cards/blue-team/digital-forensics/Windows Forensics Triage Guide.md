@@ -14,7 +14,7 @@ Artifacts to prioritize getting when performing the initial triage of a Windows 
 
 - [[Common Windows Forensics Artifacts#Kroll Artifact Parser And Extracter (KAPE)|KAPE]] some notes here.
 - It can pretty much do anything we did manually.
-- **The advantage of using this is modular**: we can select what we want to analyze first to reduce the overhead and get to forensic analysis immediately then have KAPE analyze while performing forensics.
+- **The advantage of using this, it is modular**: we can select what we want to analyze first to reduce the overhead and get to forensic analysis immediately then have KAPE analyze while performing forensics.
 - **Important:** Always remember scope.
 ### Triaging
 ---

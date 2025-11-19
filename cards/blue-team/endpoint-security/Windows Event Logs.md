@@ -1,7 +1,9 @@
 ---
-tags: 
+tags:
 date-created: 2025-01-26
 dg-publish: true
+aliases:
+sTags:
 ---
 [[blue-team]]
 

@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - Web
 tags:
   - map
 dg-publish: true

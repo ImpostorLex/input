@@ -6,7 +6,7 @@ dg-publish: true
 date-created: 2025-05-25
 author: alex
 ---
-[[active-directory]]
+[[windows active directory]]
 ### Introduction
 ---
 Demonstrate the techniques used once we have access to an authenticated account, the learning objectives are:

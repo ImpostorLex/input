@@ -51,3 +51,6 @@ Also suggest a proper note name for the given note - ideally best what the reade
 - [[Active Directory#Maltego|Map relationships and visualize data with Maltego’s transforms.]]
 ```
 
+
+https://apps.p.ost2.fyi/learning/course/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/home
+
