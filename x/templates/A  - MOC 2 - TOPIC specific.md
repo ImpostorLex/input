@@ -3,6 +3,9 @@ aliases:
 date-created:
 dg-publish:
 tags:
+mitre_tactic:
+mitre_technique:
+type: PARENT
 ---
 ~ [[parent]]
 ### Summary

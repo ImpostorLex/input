@@ -1,8 +1,14 @@
 ---
-tags: 
-banner: 
+tags:
+banner:
 cssclasses:
   - banner
+aliases:
+  - TECH | T0003.001 Scripting
+date-created:
+dg-publish:
+mitre_tactic: TA0008
+mitre_technique: T1021
 ---
 ![[input.png|banner]]
 This is the input vault where you store what you learned and there will be a output vault named **output**. 
@@ -14,3 +20,4 @@ This is the input vault where you store what you learned and there will be a out
 [[notes|you left some notes for future self.]]
 
 
+[[+|waiting.....]]

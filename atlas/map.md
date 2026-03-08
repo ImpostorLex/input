@@ -15,6 +15,8 @@ dg-home: true
 > AND !contains(file.tags, "closed")
 > ```
 
+~ [[MITRE map]]
+
 > [!warning]+ Dont forget about this
 > ```dataview
 > TABLE WITHOUT ID file.link AS "Note", todo AS "Todo"
@@ -23,7 +25,7 @@ dg-home: true
 > ```
 
 
-https://www.reddit.com/r/crystalofatlan/comments/1n6fv8r/new_endgame_player_need_help_on_what_to_do_now/
+
 
 
 

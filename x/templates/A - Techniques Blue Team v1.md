@@ -6,6 +6,7 @@ dg-publish:
 tags:
 mitre_tactic: TA0008
 mitre_technique: T1021
+type: DET
 ---
 ~ [[map]]
 ## Summary

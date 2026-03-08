@@ -89,7 +89,7 @@ or as subtle as inserting zero-width characters or homoglyphs into a banned term
 
 ## Prompt Injection
 ---
-It is similar to social engineering, but against an AI. It manipulates the instructions given to a Large Language Model so that the model behaves in wayws outside of it's intented purpose.
+It is similar to social engineering, but against an AI. It manipulates the instructions given to a Large Language Model so that the model behaves in ways outside of it's intented purpose.
 
 ![[Input Manipulation-1.png]]
 

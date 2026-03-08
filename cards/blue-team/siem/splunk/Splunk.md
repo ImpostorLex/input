@@ -73,7 +73,7 @@ View all unique sourcetypes:
 	- Show the latest first: `| sort -req_time`
 
 Sample usage:
-![[Splunk.png]]
+![[cards/blue-team/siem/images/Splunk.png]]
 - `head 5` shows top 5 results or `tail 5` show top 5 last results.
 - `table`
 
@@ -88,6 +88,24 @@ Visualize the attack:
 
 - `| iplocation clientip` lookup ip address
 	- `| geostats count by Country` then visualization.
+
+**Determine number of events captured per day:**
+
+```C
+index=main sourcetype=web_traffic | timechart span=1d count
+```
+
+![[Splunked.png]]
+
+Then hit **visualization for a better view** and additionally add to show the maximum number of events first:
+
+```C
+index=main sourcetype=web_traffic | timechart span=1d count | sort by count | reverse
+```
+
+198.51.100.55
+
+
 
 ## Dashboard
 

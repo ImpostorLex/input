@@ -26,6 +26,7 @@ sTags AS "Topics"
 > from "cards/blue-team/endpoint-security"
 > sort file.mtime desc where !contains(file.path, "cards/blue-team/endpoint-security/chall") sort file.ctime
 > ```
+> [[Group Policy Objects#Sample Investigation]] has investigation how to investigate GPOs
 
 > [!map]- Phishing Analysis
 >

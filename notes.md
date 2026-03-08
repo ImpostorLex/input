@@ -54,3 +54,7 @@ Also suggest a proper note name for the given note - ideally best what the reade
 
 https://apps.p.ost2.fyi/learning/course/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/home
 
+
+https://trustedsec.com/blog/obsidian-taming-a-collective-consciousness
+
+https://www.lazada.com.ph/products/tendo-simple-wooden-computer-desk-office-table-with-steel-leg-office-table-wooden-student-study-table-home-dining-desk-i3754090670-s27477654520.html?

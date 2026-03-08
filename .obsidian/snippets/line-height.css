@@ -1,0 +1,27 @@
+/* Optimal line height for reading and studying - universal settings */
+
+/* Global line height - optimal for comprehension and eye comfort */
+body {
+  --line-height-normal: 1.6;
+  --line-height-tight: 1.4;
+}
+
+/* All text content - reading and editing */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-line,
+.markdown-rendered {
+  line-height: 1.6;
+}
+
+/* Code blocks - slightly tighter for technical content */
+pre,
+code,
+.cm-line.HyperMD-codeblock {
+  line-height: 1.4;
+}
+
+/* Headings - balanced hierarchy */
+h1, h2, h3, h4, h5, h6,
+.cm-header {
+  line-height: 1.4;
+}

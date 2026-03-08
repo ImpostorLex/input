@@ -77,6 +77,7 @@ link(file.path, choice(length(file.aliases) > 0, file.aliases[0], file.name)) AS
 FROM #red-team/ad
 SORT file.ctime ASC
 >```
+>[[Group Policy Objects#Red Teaming]] has a cool way to attack AD with GPO
 
 #### Others
 ---

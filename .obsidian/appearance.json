@@ -5,7 +5,8 @@
     "style",
     "banner",
     "CSS.Banners",
-    "styling"
+    "styling",
+    "line-height"
   ],
   "textFontFamily": "New York Small",
   "showRibbon": false

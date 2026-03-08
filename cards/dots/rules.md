@@ -6,6 +6,8 @@ date-created: 2025-08-21
 ~ [[input]]
 
 **A dedicated note section that gives an overview of how I write and structure my notes.**
+
+If the note covers more than 1 technical mechanism → it must be split.
 #### Note Structure
 ---
 `+simmering` (unpublished) folder - notes that is unfinished, cannot be organized yet, or I want to look out in the future.

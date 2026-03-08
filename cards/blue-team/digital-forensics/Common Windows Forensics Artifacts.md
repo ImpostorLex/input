@@ -135,7 +135,7 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisit
 NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
 ```
 
-Run dialog:
+**Run dialog:** list of commands typed by the user in the `Run` dialog
 ```C
 NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
 ```
@@ -146,6 +146,16 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
 ```
 
 - Useful for viewing probably deleted files and remote network paths.
+
+**View Connected USB Devices:**
+
+The registry stores information on the USB devices that have been connected to the system. This information is present in the `SYSTEM` hive. To view it:
+
+```C
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR
+```
+
+
 
 ## Program Execution (Investigation)
 ---
@@ -198,7 +208,7 @@ SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache
 
 - **Note:** remember the subkey of interest in the general view then view it using specific folder for each subkey for more information.
 	- The image path of the binary can be found on the `Action` row and then viewing the hexadecimal to ASCII.
-
+ 
 **Command History (PowerShell):**
 
 ```C
@@ -208,3 +218,10 @@ C:\Users\matthew.collins\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
 - Stores **PowerShell command history** for each user.
 - Similar to Linux's `.bash_history`
 - File persists after reboot unless cleared manually.
+
+**Stores information on the installed programs:**
+
+```C
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+```
+

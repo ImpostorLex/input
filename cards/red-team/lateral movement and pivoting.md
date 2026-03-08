@@ -5,6 +5,10 @@ tags:
   - red-team/ad
 dg-publish: true
 date-created: 2025-10-23
+type: PARENT
+mitre_tactic:
+  - lateral-movement
+mitre_technique:
 ---
 ~ [[red-team]]
 ### Introduction
