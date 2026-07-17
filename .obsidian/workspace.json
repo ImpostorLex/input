@@ -24,20 +24,35 @@
             }
           },
           {
-            "id": "f90c0ffea1462765",
+            "id": "30ca3833eafde627",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atlas/map.md",
+                "file": "Active Directory Security Monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "map"
+              "title": "Active Directory Security Monitoring"
+            }
+          },
+          {
+            "id": "77c93bde297ed2aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TEST"
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -107,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#red-team",
+                "query": "diamond",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 208.5
   },
   "right": {
     "id": "8234af46590e440d",
@@ -163,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "input.md",
+                "file": "DET - Man-in-the-Middle - ARP Cache Poisoning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of input"
+              "title": "Outline of DET - Man-in-the-Middle - ARP Cache Poisoning"
             }
           },
           {
@@ -190,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "input.md",
+                "file": "DET - Man-in-the-Middle - ARP Cache Poisoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +215,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for input"
+              "title": "Backlinks for DET - Man-in-the-Middle - ARP Cache Poisoning"
             }
           },
           {
@@ -239,44 +254,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3d32e5537af17cb",
+  "active": "77c93bde297ed2aa",
   "lastOpenFiles": [
-    "atlas/map.md",
-    "Claude Prompt.md",
+    "Active Directory Security Monitoring.md",
+    "TEST.md",
     "input.md",
-    "notes.md",
-    "Enumeration.md",
-    "+/Persistence through GPOs.md",
-    "cards/red-team/images/Persisting Active Directory.md",
-    "atlas/red-team.md",
-    "cards/red-team/Persistence through ACLs.md",
+    "cards/blue-team/detections/DET - Account Lifecycle Events.md",
+    "cards/blue-team/detections/DET - NTLM Authentication Events.md",
+    "cards/blue-team/detections/DET - Kerberos Authentication Events.md",
+    "x/templates/A - Techniques Blue Team v1.md",
+    "x/templates/A - Techniques  Red Team v1.md",
+    "x/templates/A - CASE NOTE template.md",
+    "x/templates/A  - MOC 2 - TOPIC specific.md",
+    "atlas/blue books.md",
+    "atlas/map.md",
     "atlas/MITRE map.md",
-    "cards/red-team/lateral movement and pivoting.md",
-    "cards/red-team/Exploiting Active Directory.md",
-    "cards/red-team/MMC RSAT Enumeration.md",
-    "cards/red-team/Credential Injection via Runas.md",
-    "cards/red-team/Enumerating Active Directory (Authenticated Enumeration).md",
-    "cards/active-directory/Active Directory Authenticated Enumeration.md",
+    "cards/blue-team/threat-intelligence/Diamond Model of Intrusion Analysis.md",
+    "cards/blue-team/threat-intelligence/Threat Intelligence for SOC.md",
+    "notes.md",
+    "cards/blue-team/detections/DET - Logon Events.md",
+    "cards/blue-team/detections/DET - Directory Service Events and GPO Modifications.md",
+    "cards/blue-team/detections/DET - Group Membership Events.md",
+    "cards/red-team/images/Persisting Active Directory.md",
+    "cards/blue-team/detections/DET - Baseline & Long Tail Analysis.md",
+    "cards/blue-team/detections/DET - T1218.011 - Rundll32 Suspicious Execution Detection.md",
+    "cards/red-team/Windows System Post Exploitation Discovery.md",
     "Password Attacks.md",
-    "atlas/+.md",
-    "cards/active-directory/Group Policy Objects.md",
-    "cards/red-team/Persistence through Group Membership.md",
+    "cards/red-team/TECH - T1087.002 - Account Discovery - Domain Account via BloodHound.md",
+    "cards/red-team/Net Commands Enumeration.md",
+    "cards/windows/images/Service Host (svchost.exe) 1.png",
+    "cards/blue-team/detections",
     "cards/red-team/images/Persisting Active Directory.png",
-    "cards/red-team/images/Persistence through GPOs.md",
     "cards/red-team/images/Persistence through ACLs-4.png",
     "cards/red-team/images/Persistence through ACLs-3.png",
     "cards/red-team/images/Persistence through ACLs-2.png",
     "cards/red-team/images/Persistence through ACLs-1.png",
     "cards/red-team/images/Persistence through ACLs.png",
-    "Persisting Active Directory.md",
     "Persistence through ACLs-4.png",
     "Persistence through ACLs-3.png",
     "Persistence through ACLs-2.png",
-    "Persistence through ACLs-1.png",
-    "cards/red-team/LAPS Password Extraction.md",
-    "cards/active-directory/Group Policy Preferences (GPP).md",
-    "cards/red-team/Credential Harvesting.md",
-    "cards/red-team/Harvesting Windows Credential Manager.md",
     "cards/red",
     "+/images",
     "red",
@@ -286,7 +302,6 @@
     "cards/networking/images",
     "cards/networking",
     "map-of-contents/Untitled",
-    "cards/blue-team/malware-analysis/images",
     "Space.canvas"
   ]
 }

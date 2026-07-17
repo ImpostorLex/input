@@ -4,6 +4,7 @@ aliases:
 date-created:
 dg-publish:
 tags:
+  - template
 mitre_tactic: TA0008
 mitre_technique: T1021
 type: DET
@@ -14,25 +15,66 @@ type: DET
 **What it is:** One-line definition of the detection or defensive concept.  
 **Scope:** What this note covers (and optionally what it does *not*).  
 **Key Topics:** Links to prerequisite concepts, detection fundamentals, or related techniques.  
+**Status:** 🟡 Draft | 🟢 Validated | 🔵 Needs Review
 
+> [!warning]- TECHNIQUEs available
+> ```dataview
+> LIST file.link
+FROM ""
+WHERE type = "TECH"
+AND mitre_technique = this.mitre_technique
+AND file.name != this.file.name
+AND (!file.tags OR !contains(file.tags, "template"))
+> ```
 ## How it works (2–4 lines)
 ---
 Explain what happens technically (protocol/process), why it’s used legitimately, and how attackers repurpose it. Keep short and neutral — this sets context for your detection logic.
-## Detection Workflow
+## Investigation Workflow
 ---
+### Initial Alert
 
-1. **Identify telemetry sources:** event logs, Sysmon, EDR, network, etc.  
-2. **Define key behaviors:** process names, parent relationships, command line patterns.  
-3. **Write detection logic / pseudo-query:**  pseudo code or logic line, tool-agnostic
-4. **Validate detection:** test against legitimate admin actions; adjust allowlists.
+- What triggered the alert?
+- What telemetry generated it?
+- What ATT&CK technique does it map to?
 
-## Observables & Indicators
+### Investigation Questions
+
+> Follow the SOC Investigation Framework.
+
+My follow thingy needs to be linked add this as todo. It's important to **link** these only as the prize possesion is the "Technique-specific questions".
+#### Technique-Specific Questions
+- Add attack-specific investigation questions here.
+### Evidence Collection
+- Windows Event Logs
+- Sysmon
+- Wazuh Alerts
+- Process Tree
+- Network Connections
+- Registry
+- File System
+### Detection Validation
+- Did the expected telemetry appear?
+- Did the detection fire?
+- False positives?
+- False negatives?
+### Detection Improvements
+- Rule tuning ideas
+- Additional telemetry
+- Correlation opportunities
+## Investigation Artifacts
 ---
-- **EventIDs / Artifacts:** list relevant ones (e.g., Sysmon 1, 4688, 7045).  
-- **Processes / Parents:** `wmiprvse.exe`, `powershell.exe`, etc.  
-- **Network:** ports, destination types, service names.  
-- **Filesystem / Registry:** dropped binaries, service creation paths.
+## Investigation Artifacts
+---
+### Expected Telemetry
+### Observed in Lab
+### Evidence Collected
+### Confidence
 
+🟢 Verified in Lab
+
+🟡 Expected (Documentation)
+
+🔴 Unknown / Needs Testing
 ## Response & Containment
 ---
 
@@ -41,8 +83,28 @@ Explain what happens technically (protocol/process), why it’s used legitimatel
 - **Remediation:** credential resets, patching, policy update.  
 - **Recovery:** confirm no persistence mechanisms remain.
 
-## Notes / Tuning
+## Investigation Outcome
 ---
-- Legitimate management tools that may trigger false positives.  
-- Data sources required for effective coverage.  
-- Example filters to reduce noise.
+### Root Cause
+
+### Detection Verdict
+
+- ☐ True Positive
+- ☐ False Positive
+- ☐ Benign Activity
+- ☐ Needs More Investigation
+### Detection Gap
+### Recommended Improvements
+
+## Detection Tuning
+---
+- Known False Positives
+- Known False Negatives 
+- Required Data Sources 
+- Rule Improvements 
+- Testing Notes 
+
+## Lessons Learned
+---
+
+

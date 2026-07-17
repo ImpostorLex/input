@@ -11,7 +11,7 @@ tags:
 aliases:
   - TECH - T1078.002 - Active Directory Credential Injection via Runas
 ---
-~ [[red-team]]
+~ [[Enumerating Active Directory (Authenticated Enumeration)]] | 
 ## Summary
 ---
 **What it is:** Injecting valid Active Directory credentials into memory on a non-domain-joined Windows machine using runas.exe with /netonly flag to enable network authentication to AD resources without local domain authentication.

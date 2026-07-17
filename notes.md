@@ -57,4 +57,9 @@ https://apps.p.ost2.fyi/learning/course/course-v1:OpenSecurityTraining2+Arch1001
 
 https://trustedsec.com/blog/obsidian-taming-a-collective-consciousness
 
-https://www.lazada.com.ph/products/tendo-simple-wooden-computer-desk-office-table-with-steel-leg-office-table-wooden-student-study-table-home-dining-desk-i3754090670-s27477654520.html?
+lalalalallala
+
+https://www.youtube.com/watch?v=-QobM0XHOT4
+
+https://anikototv.to/home
+

@@ -2,12 +2,15 @@
 tags:
   - red-team/ad
 aliases:
+  - TA0007 Authenticated Active Directory Enumeration
 date-created: 2025-10-10
 dg-publish: true
 mitre_tactic:
+  - discovery
 mitre_technique:
+type: PARENT
 ---
-~ [[Active Directory]] | [[red-team]]
+~ [[MITRE map]] | [[Active Directory]] | [[red-team]] 
 ## Summary
 ---
 **What you will find:** Comprehensive overview of Active Directory enumeration techniques after obtaining initial credentials, covering credential injection, built-in Windows tools, PowerShell cmdlets, and automated enumeration frameworks.
@@ -47,8 +50,8 @@ Once you successfully obtain your first set of AD credentials, you can start enu
 - [[Credential Injection via Runas|TECH - T1078.002 - Active Directory Credential Injection via Runas]]
 - [[MMC RSAT Enumeration|TECH - T1087.002 - Active Directory MMC RSAT Enumeration]]
 - [[Net Commands Enumeration|TECH - T1087.002 - Active Directory Net Commands Enumeration]]
-- [[PowerShell AD-RSAT Enumeration|TECH - T1087.002 - Active Directory PowerShell AD-RSAT Enumeration]]
-- [[BloodHound AD Enumeration|TECH - T1087.002 - Active Directory BloodHound Enumeration]]
+- [[TECH - T1087.002 - Account Discovery -  Domain Account|TECH - T1087.002 - Active Directory PowerShell AD-RSAT Enumeration]]
+- [[TECH - T1087.002 - Account Discovery - Domain Account via BloodHound|TECH - T1087.002 - Active Directory BloodHound Enumeration]]
 
 ### Prerequisites
 ---

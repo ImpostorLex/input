@@ -3,11 +3,22 @@ date-created: 2026-01-16
 dg-publish: true
 tags:
 aliases:
-type:
+type: PARENT
 ---
 ~ [[input]]
 
 A **much more** better way to navigate.
+
+See also list of detection, playbooks, or runbooks [[blue books|here]].
+## Recon
+
+> [!note]+ TA0043 - Reconnaissance
+> ```dataview
+> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> FROM ""
+> WHERE type = "PARENT"
+> AND contains(mitre_tactic, "initial-access")
+> ```
 ## Initial Access
 
 > [!note]+ TA0001 - Initial Access
@@ -32,7 +43,8 @@ A **much more** better way to navigate.
 
 > [!note]+ TA0003 - Persistence
 > ```dataview
-> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> LIST WITHOUT ID
+> choice(length(file.aliases) > 0, link(file.path, file.aliases[0]), file.link)
 > FROM ""
 > WHERE type = "PARENT"
 > AND contains(mitre_tactic, "persistence")
@@ -52,7 +64,8 @@ A **much more** better way to navigate.
 
 > [!note]+ TA0005 - Defense Evasion
 > ```dataview
-> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> LIST WITHOUT ID
+> choice(length(file.aliases) > 0, link(file.path, file.aliases[0]), file.link)
 > FROM ""
 > WHERE type = "PARENT"
 > AND contains(mitre_tactic, "defense-evasion")
@@ -62,7 +75,8 @@ A **much more** better way to navigate.
 
 > [!note]+ TA0006 - Credential Access
 > ```dataview
-> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> LIST WITHOUT ID
+> choice(length(file.aliases) > 0, link(file.path, file.aliases[0]), file.link)
 > FROM ""
 > WHERE type = "PARENT"
 > AND contains(mitre_tactic, "credential-access")
@@ -72,7 +86,8 @@ A **much more** better way to navigate.
 
 > [!note]+ TA0007 - Discovery
 > ```dataview
-> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> LIST WITHOUT ID
+> choice(length(file.aliases) > 0, link(file.path, file.aliases[0]), file.link)
 > FROM ""
 > WHERE type = "PARENT"
 > AND contains(mitre_tactic, "discovery")
@@ -82,7 +97,8 @@ A **much more** better way to navigate.
 
 > [!note]+ TA0008 - Lateral Movement
 > ```dataview
-> LIST choice(length(aliases) > 0, link(file.path, aliases[0]), file.link)
+> LIST WITHOUT ID
+> choice(length(file.aliases) > 0, link(file.path, file.aliases[0]), file.link)
 > FROM ""
 > WHERE type = "PARENT"
 > AND contains(mitre_tactic, "lateral-movement")

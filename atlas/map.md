@@ -16,15 +16,17 @@ dg-home: true
 > ```
 
 ~ [[MITRE map]]
+~ [[blue books]] a list of playbook, detections, and runbooks.
 
-> [!warning]+ Dont forget about this
+> [!warning]- Dont forget about this
 > ```dataview
 > TABLE WITHOUT ID file.link AS "Note", todo AS "Todo"
 > FROM ""
 > WHERE todo
 > ```
 
-
+- Data exfil
+- Monitor Active Dir - (ONGOING)
 
 
 

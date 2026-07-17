@@ -7,7 +7,8 @@ dg-publish: true
 ### Introduction
 ---
 
-![[Service Host (svchost.exe).png]]
+![[Service Host (svchost.exe) 1.png]]
+
 Services that is running on the svchost.exe are implemented as [[DLL]] and are stored in `Parameters` subkey in `ServiceDLL`:
 
 ```Powershell
@@ -27,5 +28,8 @@ The `-k` in the binary path is how legitimate svchost.exe process is called with
 
 Extra reading - [Hexacorn Blog](https://www.hexacorn.com/blog/2015/12/18/the-typographical-and-homomorphic-abuse-of-svchost-exe-and-other-popular-file-names/)
 
+## QUICK
+---
+![[Service Host (svchost.exe) 1.png]]
 
 

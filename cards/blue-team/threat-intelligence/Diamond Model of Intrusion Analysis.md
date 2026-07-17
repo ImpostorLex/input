@@ -22,6 +22,7 @@ The goal is to determine the adversary using the other 'points' in the model:
 The adversary here is unknown but by looking at the other 'points':
 
 ![[Diamond Model of Intrusion Analysis-2.png|400]]
+
 - Who have the capability to do the following such as finding 4 zero days?
 - How did the infected usb drive got delivered to air-gapped industrial control system and tight security?
 - Who would target Iran's nuclear program?
@@ -30,4 +31,4 @@ The adversary here is unknown but by looking at the other 'points':
 	- Industrial control systems are expensive, the malware should evade detection, their must be a lot of security researchers involve finding 4 Zero days exploit, so the actor must be **rich** and a lot of **manpower**.
 	- The likeliness of the USB drive getting picked on the ground and being inserted to the system is zero. the **threat actor must have delivered him/herself** bypassing security checks, in this the threat actor must have a lot of experience in infiltrating enemy bases. 
 	- Why Iran? and why their nuclear program? simple threat to national safety.
-	- Conclusion? the USA .
+	- Conclusion? the USA.

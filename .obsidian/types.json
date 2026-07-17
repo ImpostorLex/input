@@ -26,6 +26,8 @@
     "excalidraw-embed-md": "checkbox",
     "string_tags": "multitext",
     "sTags": "text",
-    "mitre_tactic": "multitext"
+    "mitre_tactic": "multitext",
+    "mitre": "multitext",
+    "mitre_technique": "multitext"
   }
 }

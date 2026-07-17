@@ -7,7 +7,7 @@ aliases:
 dg-publish: true
 mitre_technique: T1087.002
 ---
-~ [[Enumerating Active Directory (Authenticated Enumeration)]]
+~ [[cards/red-team/Enumerating Active Directory (Authenticated Enumeration)]]
 ## Summary
 ---
 **What it is:** Using Microsoft Management Console (MMC) with Remote Server Administration Tools (RSAT) Active Directory snap-ins to graphically enumerate AD users, groups, computers, and organizational units from non-domain-joined or domain-joined Windows machines with injected credentials.

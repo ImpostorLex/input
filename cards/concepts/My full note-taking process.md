@@ -24,6 +24,7 @@ I use the AC (modified from ACE) framework YouTube: "Ace Framework by Nick Milo"
 
 3. `x` contains some utilities such as templates for the notes I am using and some other stuff not worth mentioning.
 
+4. `+` notes that I might comeback on. Most likely not lmao.
 # ⚙️ **1. Parent Notes (Concept Library)**
 
 ### _“What is it? Why does it matter?”_
@@ -135,10 +136,10 @@ Each step contains:
 3. **Collect** (evidence for later)
 
 **Note 1:**
-It was not noted by ChatGPT but in my case, the resource when I am learning red teaming, the resource literally contain (sometimes) how to exploit "X" but no **"Observable" and "Collect"** so what I do is ask ChatGPT to provide these for me BUT STRICTLY base the obersvable and collection purely on my NOTES, this results into two important things:
+It was not noted by ChatGPT but in my case, the resource when I am learning red teaming, the resource literally contain (sometimes) how to exploit "X" but no **"Observable" and "Collect"** so what I do is ask ChatGPT or any other Ai to provide these for me BUT STRICTLY base the obersvable and collection purely on my NOTES, this results into two important things:
 
-- ChatGPT does not invent something or include something that you did not talk about or did not include in your learning material, avoiding "where this X comes from?"
-- By "NOTES" this include the PROVEN FACTs based on your conversation window: such as "ChatGPT explain this technique X for me the resource material is not enough" in this way ChatGPT will add info that YOU already know about, this avoids pasting it into your note and asking "Where did this come from"
+- ChatGPT or any other Ai does not invent something or include something that you did not talk about or did not include in your learning material, avoiding "where this X comes from?"
+- By "NOTES" this include the PROVEN FACTs based on your conversation window: such as "ChatGPT or any other Ai explain this technique X for me the resource material is not enough" in this way ChatGPT or any other Ai will add info that YOU already know about, this avoids pasting it into your note and asking "Where did this come from"
 
 Example:
 
@@ -163,7 +164,7 @@ Short defensive awareness:
     
 This section is minimal but helps connect red ↔ blue learning.
 
-**Note 1:** ..... (the concept of note 1 applies here too never let chatgpt invent)
+**Note 1:** ..... (the concept of note 1 applies here too never let chatgpt or any other Ai invent)
 
 ### **Why TECH Notes Exist**
 

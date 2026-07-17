@@ -1,9 +1,13 @@
 ---
-aliases: 
+aliases:
 date-created: 2025-05-20
 dg-publish: true
 tags:
   - red-team/ad
+mitre_tactic:
+  - reconnaissance 
+mitre_technique:
+type:
 ---
 [[windows active directory]]
 ### Introduction
@@ -190,7 +194,7 @@ Anonymous bind enabled when there is a lot of output:
 ![[Active Directory Enumeration-6.png]]
 Then query user information with this command:
 
-```
+```C
 ldapsearch -x -H ldap://10.211.11.10 -b "dc=tryhackme,dc=loc" "(objectClass=person)"
 ```
 
@@ -254,6 +258,8 @@ Here is a modified version of the previous command to save username in a `.txt` 
 ```bash
 for i in $(seq 500 2000); do echo "queryuser $i" |rpcclient -U "" -N 10.211.11.10 2>/dev/null |grep -i "User Name" | cut -d: -f2 | xargs -I{} echo {} | sed 's/^ *//' >> users.txt; done
 ```
+
+**Note:** recover the alternative technique to the above not this one not reliable and then delete this note.
 
 Then we can use `users.txt` to determine valid accounts using the below command:
 
